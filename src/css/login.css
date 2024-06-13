@@ -1,0 +1,53 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:  100vh;
+    overflow-y: scroll;
+    /* background: #98aad6 !important; */
+}
+
+.form-container{
+    width: 400px;
+    /* height: 500px; */
+    /* background: #688cdf; */
+}
+.form-container1{
+    width: 150px;
+    height: 200px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    background-color: #688cdf !important; 
+}
+
+.btn:hover{
+    background-color: gray !important;
+    color: black !important;
+}
+.tittle,
+.slogan{
+    text-align: center;
+}
+.auth-image{
+    /* transform: translateY(150px);
+    margin-left: 150px; */
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: #688cdf; */
+
+    border-radius: 10px;
+}
+
+.img{
+    /* background-color: #688cdf !important; */
+    border-radius: 10px;
+}
+
+.alert{
+    margin-bottom: 1.5rem;
+}
