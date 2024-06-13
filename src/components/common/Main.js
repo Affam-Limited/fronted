@@ -5,6 +5,7 @@ import Dashboard from './Dashboard'
 import Menu from './Menu'
 
 function Main() {
+    document.title="main"
     return (
         <div>
             <Header />

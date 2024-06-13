@@ -35,13 +35,11 @@ function Login() {
             }
 
             if (res.status === 200) {
-                message.success('Login Success');
-                // document.location="/dashboard";
-                // navigate("/dashboard");
-                // login(data.token, data.user)
-            } else if (res.status === 401) {
-                message.error("Unauthorised")
-            } else {
+                message.success('Login Successful');
+                document.location="/main";
+            } else if (data.Email !== values.email) {
+                message.error("Incorrect Email or Password")
+            }else {
                 message.error("Incorrect details")
             }
         } catch (error) {
